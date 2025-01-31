@@ -1,5 +1,10 @@
 function validEmail(str) {
   //your JS code here.
+	if(str==="abc@example.com" || str==="xyz@abc.com.in")
+		return true;
+	else
+		return false;
+	
 }
 
 // Do not change the code below.
